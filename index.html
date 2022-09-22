@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Class06</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+        <div class="col-6 card shadow">
+            <h1 class="text-center text-uppercase text-primary">User Form</h1>
+            <div class="my-1">
+            <input type="text" id="name" class="form-control"
+             placeholder="Enter Your Name...">
+            </div>
+            <div class="my-1">
+            <input type="text" id="email" class="form-control"
+             placeholder="Enter Your Email...">
+            </div>
+            <div class="my-1">
+            <input type="text" id="age" class="form-control"
+             placeholder="Enter Your Age...">
+            </div>
+            <div class="my-1">
+            <input type="text" id="designation" class="form-control"
+             placeholder="Enter Your Designation...">
+            </div>
+            <div class="my-1">
+            <input type="text" id="city" class="form-control"
+             placeholder="Enter Your City...">
+            </div>
+            <div class="mt-2 mb-3 text-center">
+                <button type="submit" class="btn btn-primary w-75" id="btn">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="display: none;" id="box">
+        <div class="row justify-content-center">
+            <div class="col-6 card shadow">
+                <h1 class="text-center text-uppercase text-primary
+                mt-3">User Data</h1>
+                <h3 class="my-1" id="dname"></h3>
+                <h3 class="my-1" id="demail"></h3>
+                <h3 class="my-1" id="dage"></h3>
+                <h3 class="my-1" id="ddesignation"></h3>
+                <h3 class="mt-1 mb-3" id="dcity"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
